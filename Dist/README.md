@@ -6,8 +6,8 @@
   \____/\__,_/_/\__,_/\___/\__/_/\___/  /_____/_/ /_/ /_/ .___/_/_/   \___/
                                                        /_/
                                                                           
-                               version 3.3a
-                Copyright (c) 2021-2025 Elwynor Technologies
+                               version 3.4
+                Copyright (c) 2021-2026 Elwynor Technologies
 </pre>
 
  
@@ -465,8 +465,7 @@
  
 ## LICENSE
 
- This project is licensed under the AGPL v3. Additional terms apply to 
- contributions and derivative projects. Please see the LICENSE file for 
+ This project is licensed under the AGPL v3. Please see the LICENSE file for 
  more details.
 
 ## CONTRIBUTING
@@ -476,11 +475,14 @@
 
 ## CREATING A FORK
 
- If you create an entirely new project based on this work, it must be licensed 
- under the AGPL v3, assign all right, title, and interest, including all 
- copyrights, in and to your fork to Rick Hadsall and Elwynor Technologies, and 
- you must include the additional terms from the LICENSE file in your project's 
- LICENSE file.
+ We encourage you to create new projects based upon this work. We only require 
+ that you license the work under the AGPL v3, keeping that work open sourced.
+ 
+ We would request that you consider acknowledging this project and the owner(s)
+ as identitied in the source files.
+ 
+ In this case, that would be Elwynor Technologies, Rick Hadsall, and 
+ Mike Murdock as original author.
 
 ## COMPILATION
 

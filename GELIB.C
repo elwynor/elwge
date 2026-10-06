@@ -7,8 +7,9 @@
  *   All development through v3.2e         M. Murdock     03/17/1992         *
  *   Worldgroup 3.2 Conversion v3.3        R. Hadsall     04/03/2021         *
  *   Major BBS v10  Conversion v3.4        R. Hadsall     12/05/2025         *
+ *   License change                        R. Hadsall     10/06/2026         *
  *                                                                           *
- * Copyright (C) 2006-2025 Rick Hadsall.  All Rights Reserved.               *
+ * Copyright (C) 2006-2026 Rick Hadsall.  All Rights Reserved.               *
  *                                                                           *
  * This program is free software: you can redistribute it and/or modify      *
  * it under the terms of the GNU Affero General Public License as published  *
@@ -22,28 +23,6 @@
  *                                                                           *
  * You should have received a copy of the GNU Affero General Public License  *
  * along with this program. If not, see <https://www.gnu.org/licenses/>.     *
- *                                                                           *
- * Additional Terms for Contributors:                                        *
- * 1. By contributing to this project, you agree to assign all right, title, *
- *    and interest, including all copyrights, in and to your contributions   *
- *    to Rick Hadsall and Elwynor Technologies.                              *
- * 2. You grant Rick Hadsall and Elwynor Technologies a non-exclusive,       *
- *    royalty-free, worldwide license to use, reproduce, prepare derivative  *
- *    works of, publicly display, publicly perform, sublicense, and          *
- *    distribute your contributions                                          *
- * 3. You represent that you have the legal right to make your contributions *
- *    and that the contributions do not infringe any third-party rights.     *
- * 4. Rick Hadsall and Elwynor Technologies are not obligated to incorporate *
- *    any contributions into the project.                                    *
- * 5. This project is licensed under the AGPL v3, and any derivative works   *
- *    must also be licensed under the AGPL v3.                               *
- * 6. If you create an entirely new project (a fork) based on this work, it  *
- *    must also be licensed under the AGPL v3, you assign all right, title,  *
- *    and interest, including all copyrights, in and to your contributions   *
- *    to Rick Hadsall and Elwynor Technologies, and you must include these   *
- *    additional terms in your project's LICENSE file(s).                    *
- *                                                                           *
- * By contributing to this project, you agree to these terms.                *
  *                                                                           *
  *****************************************************************************/
 
