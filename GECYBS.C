@@ -215,8 +215,12 @@ VOID FUNC cyb_lives(WARSHP *ptr,INT usrn)
         ptr->holdcourse = gernd() % 7 + 2;
     }
 
-    cyb_check_damage(ptr, usrn);
-    cyb_check_lockon(ptr, usrn);
+    /* cyberbases should not do these */
+    if (shipclass[ptr->shpclass].max_accel > 0) {
+        cyb_check_damage(ptr, usrn);
+        cyb_check_lockon(ptr, usrn);
+    }
+
     ptr->energy = 50000L;
 
     /*DEBUG
@@ -251,7 +255,7 @@ SHORT FUNC notclaimed(WARSHP *ptr,INT usrn)
     nc = 0;
     for (zothusn = nterms; zothusn < nships; zothusn++) {
         wptr = warshpoff(zothusn);
-        if (wptr->status == GESTAT_AUTO && wptr->cybmine == (byte)usrn)
+        if (wptr->status == GESTAT_AUTO && shipclass[wptr->shpclass].max_type == CLASSTYPE_CYBORG && wptr->cybmine == (byte)usrn)
             ++nc;
     }
     /*DEBUG
